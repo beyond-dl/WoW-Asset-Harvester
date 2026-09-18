@@ -1305,7 +1305,7 @@ def launch_gui():
         ttk.Button(rows, text="Browse...", command=browse, width=11).grid(row=r * 2, column=2, pady=(6, 0))
         ttk.Label(rows, text=hint, foreground="#666").grid(row=r * 2 + 1, column=1, sticky='w', padx=6)
 
-    add_row(0, "Source (extracted MPQ)", 'source', "The full patch you extract FROM.")
+    add_row(0, "Source (extracted MPQ)", 'source', "Folder with your extracted MPQ contents.")
     add_row(1, "ADT folder", 'adt', "Your map's .adt tiles - these drive everything.")
     add_row(2, "DBC folder (optional)", 'dbc', "GroundEffectDoodad/Texture + Light/Params/Skybox DBCs.")
     add_row(3, "Output folder", 'output', "Where the trimmed asset set is written.")
